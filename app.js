@@ -76,7 +76,7 @@ yargs.command({
     }
 })
 
-=======
+
 const notes = require('./notes.js');
 const validator = require('validator')
 const yargs = require('yargs')
@@ -154,6 +154,4 @@ yargs.command({
         console.log('Reading the new note!')
     }
 })
-
->>>>>>> f9b46768a314290f63a0946d8a0028a0db4edee3
 yargs.parse()
