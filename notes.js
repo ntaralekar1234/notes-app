@@ -17,11 +17,11 @@ const addNote = function(title,body)
         })
 
         saveNotes(notes)
-
+        console.log(color.green.inverse('New Note Created!'))
     }
     else
     {
-        console.log('Note Title Taken!')
+        console.log(color.red.inverse('Note Title Taken!'))
     }
 
 }
