@@ -1,5 +1,5 @@
 const notes = require('./notes.js');
-//const validator = require('validator')
+const validator = require('validator')
 const yargs = require('yargs')
 
 
